@@ -65,6 +65,8 @@ docker-compose down -v
 
 Start a basic shell inside a container
 
-```bash
-docker-compose exec <service> bash
+```sh
+docker-compose exec <service> sh
 ```
+
+Note that the Alpine Linux images we use do not come with bash installed.
